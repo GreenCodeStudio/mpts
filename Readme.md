@@ -5,8 +5,8 @@ This is html and xml template system. It is created to be used in multiple progr
 It's like Twig, but better.
 
 ## Demo
-
-<iframe style="border:none;"></iframe>
+https://greencodestudio.github.io/mpts/demo/
+<iframe style="border:none; width:100%" src="https://greencodestudio.github.io/mpts/demo/"></iframe>
 
 ## Usage in code
 
@@ -36,3 +36,14 @@ document.body.append(parsed.execute(env));
 ```
 
 ### JS with webpack
+
+## Language supported
+### PHP
+https://packagist.org/packages/mkrawczyk/mpts
+
+### JS
+Main package
+https://www.npmjs.com/package/mpts-core
+
+Webpack loader:
+https://www.npmjs.com/package/mpts-loader
