@@ -48,6 +48,9 @@ https://www.npmjs.com/package/mpts-core
 Webpack loader:
 https://www.npmjs.com/package/mpts-loader
 
+### .NET
+https://www.nuget.org/packages/MPTS
+
 ## Manual
 ### Text 
 MPTS allows You to use expressions that returns text.
