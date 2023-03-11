@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="test" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+    <CommandLine workingDirectory="$PROJECT_DIR$/../mpts-php/">
+      <PhpTestInterpreterSettings>
+        <option name="interpreterName" value="PHP 8.0" />
+      </PhpTestInterpreterSettings>
+    </CommandLine>
+    <TestRunner bootstrap_file="$PROJECT_DIR$/../mpts-php/vendor/autoload.php" directory="$PROJECT_DIR$/../mpts-php/test" use_alternative_bootstrap_file="true" />
+    <method v="2" />
+  </configuration>
+</component>

@@ -1,0 +1,20 @@
+{
+    "name": "mkrawczyk/wikipedia-recent-changes",
+    "description": "Example app using mpts",
+    "type": "project",
+    "require": {
+        "mkrawczyk/mpts": "^0.1.13"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mkrawczyk\\WikipediaRecentChanges\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MateuszKrawczyk",
+            "email": "mateuszkrawczyk1996@gmail.com"
+        }
+    ]
+}

@@ -4,6 +4,30 @@ This is html and xml template system. It is created to be used in multiple progr
 
 It's like Twig, but better.
 
+
+#@ Table of content
+- [Multi Platform Template System](#multi-platform-template-system)
+    * [Demo](#demo)
+    * [Usage in code](#usage-in-code)
+        + [PHP](#php)
+        + [JS](#js)
+        + [JS with webpack](#js-with-webpack)
+    * [Language supported](#language-supported)
+        + [PHP](#php-1)
+        + [JS](#js-1)
+        + [.NET](#net)
+    * [Manual](#manual)
+        + [Text](#text)
+        + [Elements](#elements)
+        + [Expressions](#expressions)
+            - [Variable](#variable)
+            - [Property](#property)
+            - [Method call](#method-call)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
+
 ## Demo
 https://greencodestudio.github.io/mpts/demo/
 <iframe style="border:none; width:100%" src="https://greencodestudio.github.io/mpts/demo/"></iframe>
@@ -37,19 +61,40 @@ document.body.append(parsed.execute(env));
 
 ### JS with webpack
 
+webpack.config.js:
+```js
+module.exports = {
+    module: {
+        rules: [
+            {
+                test: /\.mpts$/,
+                loader: "mpts-loader",
+            },
+        ],
+    },
+};
+```
+and in code
+
+```js
+import template from "./template.mpts"
+
+document.body.append(template({foo: 'bar'}))
+```
+
 ## Language supported
 ### PHP
-https://packagist.org/packages/mkrawczyk/mpts
+[mkrawczyk/mpts](https://packagist.org/packages/mkrawczyk/mpts)
 
 ### JS
 Main package
-https://www.npmjs.com/package/mpts-core
+[mpts-core](https://www.npmjs.com/package/mpts-core)
 
 Webpack loader:
-https://www.npmjs.com/package/mpts-loader
+[mpts-loader](https://www.npmjs.com/package/mpts-loader)
 
 ### .NET
-https://www.nuget.org/packages/MPTS
+[MPTS](https://www.nuget.org/packages/MPTS)
 
 ## Manual
 ### Text 

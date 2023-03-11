@@ -1,0 +1,15 @@
+{
+  "name": "wikipediaRecentChanges",
+  "version": "1.0.0",
+  "description": "Example app using mpts",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "webpack": "^5.76.1",
+    "webpack-cli": "^5.0.1",
+    "mpts-loader": "^1.0.1"
+  }
+}

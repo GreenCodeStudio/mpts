@@ -1,0 +1,5 @@
+<article data-rcid=change.rcid>
+<h2>{{change.title}}</h2>
+{{change.timestamp}}<br/>
+type: {{change.type}}
+</article>
