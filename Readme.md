@@ -8,6 +8,7 @@ It's like Twig, but better.
 #@ Table of content
 - [Multi Platform Template System](#multi-platform-template-system)
     * [Demo](#demo)
+    * [Examples](#examples)
     * [Usage in code](#usage-in-code)
         + [PHP](#php)
         + [JS](#js)
@@ -31,6 +32,9 @@ It's like Twig, but better.
 ## Demo
 https://greencodestudio.github.io/mpts/demo/
 <iframe style="border:none; width:100%" src="https://greencodestudio.github.io/mpts/demo/"></iframe>
+
+## Examples
+Real working examples available on [github](https://github.com/GreenCodeStudio/mpts/tree/master/examples/)
 
 ## Usage in code
 

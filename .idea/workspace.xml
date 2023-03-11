@@ -5,11 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4152b22e-1d7a-4f10-a9f3-f3ccc8b3f0ad" name="Changes" comment="docs">
-      <change afterPath="$PROJECT_DIR$/examples/wikipediaRecentChanges/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/wikipediaRecentChanges/public/json.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/wikipediaRecentChanges/src/change.mpts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/wikipediaRecentChanges/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/wikipediaRecentChanges/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
@@ -94,7 +89,7 @@
       <workItem from="1650623701407" duration="14000" />
       <workItem from="1658310766672" duration="11532000" />
       <workItem from="1658391992321" duration="187000" />
-      <workItem from="1678542741412" duration="2134000" />
+      <workItem from="1678542741412" duration="2284000" />
     </task>
     <task id="LOCAL-00001" summary="docs">
       <created>1658330896135</created>
