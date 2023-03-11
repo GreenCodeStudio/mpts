@@ -5,7 +5,7 @@ This is html and xml template system. It is created to be used in multiple progr
 It's like Twig, but better.
 
 
-#@ Table of content
+## Table of content
 - [Multi Platform Template System](#multi-platform-template-system)
     * [Demo](#demo)
     * [Examples](#examples)
