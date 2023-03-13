@@ -21,10 +21,19 @@ $template = XMLParser::Parse(file_get_contents(__DIR__ . '/../src/change.mpts'))
 
         article {
             margin-bottom: 2em;
+            animation: show 500ms forwards;
         }
 
         h2 {
             margin: 0;
+        }
+        @keyframes show {
+            0%{
+                transform: scale(0);
+            }
+            100%{
+
+            }
         }
     </style>
 </head>

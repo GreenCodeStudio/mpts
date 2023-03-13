@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4152b22e-1d7a-4f10-a9f3-f3ccc8b3f0ad" name="Changes" comment="docs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/wikipediaRecentChanges/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/examples/wikipediaRecentChanges/public/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,22 +29,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/other/Documents/GitHub/LIB/mpts",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs.mocha.mocha_node_package_dir": "C:/Users/matri/Documents/GitHub/LIB/mpts-js/node_modules/mocha",
-    "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "php.test.frameworks.configurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/other/Documents/GitHub/LIB/mpts&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.mocha.mocha_node_package_dir&quot;: &quot;C:/Users/matri/Documents/GitHub/LIB/mpts-js/node_modules/mocha&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;php.test.frameworks.configurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\other\Documents\GitHub\LIB\mpts\examples\wikipediaRecentChanges\public" />
@@ -89,7 +89,8 @@
       <workItem from="1650623701407" duration="14000" />
       <workItem from="1658310766672" duration="11532000" />
       <workItem from="1658391992321" duration="187000" />
-      <workItem from="1678542741412" duration="2284000" />
+      <workItem from="1678542741412" duration="2592000" />
+      <workItem from="1678708561650" duration="18000" />
     </task>
     <task id="LOCAL-00001" summary="docs">
       <created>1658330896135</created>
