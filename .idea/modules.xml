@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/mpts.iml" filepath="$PROJECT_DIR$/.idea/mpts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../mpts-js/.idea/mpts-js.iml" filepath="$PROJECT_DIR$/../mpts-js/.idea/mpts-js.iml" />
       <module fileurl="file://$PROJECT_DIR$/../mpts-php/.idea/mpts-php.iml" filepath="$PROJECT_DIR$/../mpts-php/.idea/mpts-php.iml" />
     </modules>
   </component>

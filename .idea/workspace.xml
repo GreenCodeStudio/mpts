@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4152b22e-1d7a-4f10-a9f3-f3ccc8b3f0ad" name="Changes" comment="docs">
+      <change beforePath="$PROJECT_DIR$/../mpts-js/src/parser/ExpressionParser.js" beforeDir="false" afterPath="$PROJECT_DIR$/../mpts-js/src/parser/ExpressionParser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mpts-js/src/parser/XMLParser.js" beforeDir="false" afterPath="$PROJECT_DIR$/../mpts-js/src/parser/XMLParser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mpts-js/test/XMLParserTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/../mpts-js/test/XMLParserTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mpts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mpts.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/wikipediaRecentChanges/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/examples/wikipediaRecentChanges/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.phpunit.result.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.phpunit.result.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,14 +20,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution />
+    <execution>
+      <executable path="composer" />
+    </execution>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../mpts-js" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.0" />
   <component name="ProjectId" id="289L9DRLWBgEOnDOBYqTvXeHKHA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -34,12 +43,13 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/other/Documents/GitHub/LIB/mpts&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/other/Documents/GitHub/LIB/mpts-php&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs.mocha.mocha_node_package_dir&quot;: &quot;C:/Users/matri/Documents/GitHub/LIB/mpts-js/node_modules/mocha&quot;,
+    &quot;nodejs.mocha.mocha_node_package_dir&quot;: &quot;C:/other/Documents/GitHub/LIB/mpts-js/node_modules/mocha&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;php.test.frameworks.configurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -50,13 +60,14 @@
       <recent name="C:\other\Documents\GitHub\LIB\mpts\examples\wikipediaRecentChanges\public" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
-    <configuration name="ExecutionTest.testIRealExample" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="ExecutionTest" file="$PROJECT_DIR$/../mpts-php/test/ExecutionTest.php" method="testIRealExample" scope="Method" />
+  <component name="RunManager" selected="npm.test">
+    <configuration name="test" type="ComposerRunConfigurationType" factoryName="Composer Script" temporary="true">
+      <option name="pathToComposerJson" value="$PROJECT_DIR$/../mpts-php/composer.json" />
+      <option name="script" value="test" />
       <method v="2" />
     </configuration>
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/examples/wikipediaRecentChanges/package.json" />
+      <package-json value="$PROJECT_DIR$/../mpts-js/package.json" />
       <command value="run" />
       <scripts>
         <script value="build" />
@@ -65,16 +76,65 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/../mpts-js/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="Parser.cases from real life.1" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/../mpts-js/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/../mpts-js</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/../mpts-js/test/XMLParserTest.js</test-file>
+      <test-names>
+        <name value="Parser" />
+        <name value="cases from real life" />
+        <name value="1" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Parser.element with attributes with variables" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/../mpts-js/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/../mpts-js</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/../mpts-js/test/XMLParserTest.js</test-file>
+      <test-names>
+        <name value="Parser" />
+        <name value="element with attributes with variables" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Composer Script.test" />
       <item itemvalue="Mocha.Unnamed" />
+      <item itemvalue="Mocha.Parser.cases from real life.1" />
+      <item itemvalue="Mocha.Parser.element with attributes with variables" />
+      <item itemvalue="npm.test" />
       <item itemvalue="npm.build" />
       <item itemvalue="PHPUnit.test" />
-      <item itemvalue="PHPUnit.ExecutionTest.testIRealExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.test" />
+        <item itemvalue="Mocha.Parser.element with attributes with variables" />
+        <item itemvalue="Mocha.Parser.cases from real life.1" />
         <item itemvalue="npm.build" />
-        <item itemvalue="PHPUnit.ExecutionTest.testIRealExample" />
+        <item itemvalue="Composer Script.test" />
       </list>
     </recent_temporary>
   </component>
@@ -91,6 +151,13 @@
       <workItem from="1658391992321" duration="187000" />
       <workItem from="1678542741412" duration="2592000" />
       <workItem from="1678708561650" duration="18000" />
+      <workItem from="1681822708761" duration="8853000" />
+      <workItem from="1681836463500" duration="1139000" />
+      <workItem from="1681898042844" duration="1403000" />
+      <workItem from="1681981139416" duration="2433000" />
+      <workItem from="1681986057504" duration="6133000" />
+      <workItem from="1683735416040" duration="2032000" />
+      <workItem from="1688641318338" duration="1975000" />
     </task>
     <task id="LOCAL-00001" summary="docs">
       <created>1658330896135</created>
@@ -122,9 +189,66 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../mpts-js/test/Expression/ExpressionExecuteTest.js</url>
+          <line>105</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../mpts-js/src/parser/ExpressionParser.js</url>
+          <line>78</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../mpts-js/test/Expression/ExpressionParseTest.js</url>
+          <line>125</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../mpts-js/test/Expression/ExpressionExecuteTest.js</url>
+          <line>122</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../mpts-js/src/parser/ExpressionParser.js</url>
+          <line>55</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <condition expression="text.includes('realizationTime')" language="JavaScript" />
+          <url>file://$PROJECT_DIR$/../mpts-js/src/parser/ExpressionParser.js</url>
+          <line>16</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../mpts-js/test/XMLParserTest.js</url>
+          <line>80</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../mpts-js/src/parser/XMLParser.js</url>
+          <line>119</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/../mpts-php/test/Expression/ExpressionExecuteTest.php</url>
+          <line>149</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint enabled="true" type="javascript-exception" />
       </default-breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="phpunit">
+        <watch expression="$obj-&gt;execute($env)" language="PHP" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
