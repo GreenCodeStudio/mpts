@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4152b22e-1d7a-4f10-a9f3-f3ccc8b3f0ad" name="Changes" comment="docs">
-      <change beforePath="$PROJECT_DIR$/../mpts-js/src/parser/ExpressionParser.js" beforeDir="false" afterPath="$PROJECT_DIR$/../mpts-js/src/parser/ExpressionParser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mpts-js/src/parser/XMLParser.js" beforeDir="false" afterPath="$PROJECT_DIR$/../mpts-js/src/parser/XMLParser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mpts-js/test/XMLParserTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/../mpts-js/test/XMLParserTest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mpts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mpts.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="4152b22e-1d7a-4f10-a9f3-f3ccc8b3f0ad" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../mpts-js/dist/nodes/TElement.js" beforeDir="false" afterPath="$PROJECT_DIR$/../mpts-js/dist/nodes/TElement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mpts-js/src/nodes/TElement.js" beforeDir="false" afterPath="$PROJECT_DIR$/../mpts-js/src/nodes/TElement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mpts-js/yarn-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/../mpts-js/yarn-error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.phpunit.result.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.phpunit.result.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +40,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/other/Documents/GitHub/LIB/mpts-php&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/other/Documents/GitHub/three.js/GraphScriptLang/editor&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -157,7 +153,10 @@
       <workItem from="1681981139416" duration="2433000" />
       <workItem from="1681986057504" duration="6133000" />
       <workItem from="1683735416040" duration="2032000" />
-      <workItem from="1688641318338" duration="1975000" />
+      <workItem from="1688641318338" duration="4172000" />
+      <workItem from="1688727726746" duration="580000" />
+      <workItem from="1688732673156" duration="1134000" />
+      <workItem from="1690989352009" duration="812000" />
     </task>
     <task id="LOCAL-00001" summary="docs">
       <created>1658330896135</created>
@@ -166,7 +165,23 @@
       <option name="project" value="LOCAL" />
       <updated>1658330896135</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="bugfix">
+      <option name="closed" value="true" />
+      <created>1688645394627</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688645394627</updated>
+    </task>
+    <task id="LOCAL-00003" summary="event attribute">
+      <option name="closed" value="true" />
+      <created>1690989665985</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690989665985</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,7 +200,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="docs" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs" />
+    <MESSAGE value="bugfix" />
+    <MESSAGE value="event attribute" />
+    <option name="LAST_COMMIT_MESSAGE" value="event attribute" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -196,44 +213,28 @@
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../mpts-js/src/parser/ExpressionParser.js</url>
-          <line>78</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../mpts-js/test/Expression/ExpressionParseTest.js</url>
-          <line>125</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../mpts-js/test/Expression/ExpressionExecuteTest.js</url>
-          <line>122</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../mpts-js/src/parser/ExpressionParser.js</url>
-          <line>55</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <condition expression="text.includes('realizationTime')" language="JavaScript" />
-          <url>file://$PROJECT_DIR$/../mpts-js/src/parser/ExpressionParser.js</url>
-          <line>16</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../mpts-js/test/XMLParserTest.js</url>
-          <line>80</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../mpts-js/src/parser/XMLParser.js</url>
-          <line>119</line>
+          <url>file://$PROJECT_DIR$/examples/wikipediaRecentChanges/node_modules/mpts-core/test/XMLParserTest.js</url>
+          <line>62</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../mpts-js/test/CompileTest.js</url>
+          <line>42</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../mpts-js/test/ExecutionTest.js</url>
+          <line>63</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../mpts-js/test/CompileTest.js</url>
+          <line>108</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/../mpts-php/test/Expression/ExpressionExecuteTest.php</url>
