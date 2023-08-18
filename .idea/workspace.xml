@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4152b22e-1d7a-4f10-a9f3-f3ccc8b3f0ad" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../mpts-js/dist/nodes/TElement.js" beforeDir="false" afterPath="$PROJECT_DIR$/../mpts-js/dist/nodes/TElement.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mpts-js/src/nodes/TElement.js" beforeDir="false" afterPath="$PROJECT_DIR$/../mpts-js/src/nodes/TElement.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mpts-js/yarn-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/../mpts-js/yarn-error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mpts-php/src/Parser/ExpressionParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/../mpts-php/src/Parser/ExpressionParser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mpts-php/test/Expression/ExpressionExecuteTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../mpts-php/test/Expression/ExpressionExecuteTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mpts-php/test/Expression/ExpressionParseTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../mpts-php/test/Expression/ExpressionParseTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,13 +22,16 @@
     </execution>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../mpts-js" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../mpts-php" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.0" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="289L9DRLWBgEOnDOBYqTvXeHKHA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -56,20 +60,13 @@
       <recent name="C:\other\Documents\GitHub\LIB\mpts\examples\wikipediaRecentChanges\public" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.test">
-    <configuration name="test" type="ComposerRunConfigurationType" factoryName="Composer Script" temporary="true">
-      <option name="pathToComposerJson" value="$PROJECT_DIR$/../mpts-php/composer.json" />
-      <option name="script" value="test" />
+  <component name="RunManager" selected="PHPUnit.ExpressionParseTest.testFunctionCall2">
+    <configuration name="ExpressionParseTest.testFunctionCall" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="ExpressionParseTest" file="$PROJECT_DIR$/../mpts-php/test/Expression/ExpressionParseTest.php" method="testFunctionCall" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/../mpts-js/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
+    <configuration name="ExpressionParseTest.testFunctionCall2" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="ExpressionParseTest" file="$PROJECT_DIR$/../mpts-php/test/Expression/ExpressionParseTest.php" method="testFunctionCall2" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -116,21 +113,21 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Composer Script.test" />
       <item itemvalue="Mocha.Unnamed" />
       <item itemvalue="Mocha.Parser.cases from real life.1" />
       <item itemvalue="Mocha.Parser.element with attributes with variables" />
       <item itemvalue="npm.test" />
-      <item itemvalue="npm.build" />
       <item itemvalue="PHPUnit.test" />
+      <item itemvalue="PHPUnit.ExpressionParseTest.testFunctionCall2" />
+      <item itemvalue="PHPUnit.ExpressionParseTest.testFunctionCall" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.ExpressionParseTest.testFunctionCall2" />
+        <item itemvalue="PHPUnit.ExpressionParseTest.testFunctionCall" />
         <item itemvalue="npm.test" />
         <item itemvalue="Mocha.Parser.element with attributes with variables" />
         <item itemvalue="Mocha.Parser.cases from real life.1" />
-        <item itemvalue="npm.build" />
-        <item itemvalue="Composer Script.test" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +153,9 @@
       <workItem from="1688641318338" duration="4172000" />
       <workItem from="1688727726746" duration="580000" />
       <workItem from="1688732673156" duration="1134000" />
-      <workItem from="1690989352009" duration="812000" />
+      <workItem from="1690989352009" duration="1409000" />
+      <workItem from="1692363456816" duration="761000" />
+      <workItem from="1692364887804" duration="462000" />
     </task>
     <task id="LOCAL-00001" summary="docs">
       <created>1658330896135</created>
@@ -181,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690989665985</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="bugfix">
+      <option name="closed" value="true" />
+      <created>1690990207897</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1690990207897</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,9 +207,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="docs" />
-    <MESSAGE value="bugfix" />
     <MESSAGE value="event attribute" />
-    <option name="LAST_COMMIT_MESSAGE" value="event attribute" />
+    <MESSAGE value="bugfix" />
+    <option name="LAST_COMMIT_MESSAGE" value="bugfix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -215,31 +222,32 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/examples/wikipediaRecentChanges/node_modules/mpts-core/test/XMLParserTest.js</url>
           <line>62</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../mpts-js/test/CompileTest.js</url>
           <line>42</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../mpts-js/test/ExecutionTest.js</url>
           <line>63</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../mpts-js/test/CompileTest.js</url>
           <line>108</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/../mpts-php/test/Expression/ExpressionExecuteTest.php</url>
-          <line>149</line>
-          <option name="timeStamp" value="32" />
+          <url>file://$PROJECT_DIR$/../mpts-php/test/Expression/ExpressionParseTest.php</url>
+          <line>181</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/../mpts-php/src/Parser/ExpressionParser.php</url>
+          <line>56</line>
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
