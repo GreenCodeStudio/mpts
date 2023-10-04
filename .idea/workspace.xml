@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4152b22e-1d7a-4f10-a9f3-f3ccc8b3f0ad" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../mpts-js/yarn-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/../mpts-js/yarn-error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mpts-php/src/Parser/ExpressionParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/../mpts-php/src/Parser/ExpressionParser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mpts-php/test/Expression/ExpressionExecuteTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../mpts-php/test/Expression/ExpressionExecuteTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mpts-php/test/Expression/ExpressionParseTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../mpts-php/test/Expression/ExpressionParseTest.php" afterDir="false" />
+    <list default="true" id="6a0ff212-c676-4c52-9f46-580e143d47fc" name="Changes" comment="basic vue support">
+      <change afterPath="$PROJECT_DIR$/../mpts-js/src/parser/HTMLParser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mpts-js/test/HTMLParserTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mpts-js/test/UniParserTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mpts-js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../mpts-js/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mpts-js/test/XMLParserTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/../mpts-js/test/XMLParserTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mpts-js/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../mpts-js/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mpts.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,56 +21,38 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable path="composer" />
-    </execution>
+    <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../mpts-php" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../mpts-js" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="PhpDebugGeneral" listening_started="true" />
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.0" />
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 6
-}</component>
-  <component name="ProjectId" id="289L9DRLWBgEOnDOBYqTvXeHKHA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/other/Documents/GitHub/three.js/GraphScriptLang/editor&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs.mocha.mocha_node_package_dir&quot;: &quot;C:/other/Documents/GitHub/LIB/mpts-js/node_modules/mocha&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;php.test.frameworks.configurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "master",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "ts.external.directory.path": "C:\\Users\\matri\\AppData\\Local\\Programs\\PhpStorm 2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\other\Documents\GitHub\LIB\mpts\examples\wikipediaRecentChanges\public" />
-    </key>
-  </component>
-  <component name="RunManager" selected="PHPUnit.ExpressionParseTest.testFunctionCall2">
-    <configuration name="ExpressionParseTest.testFunctionCall" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="ExpressionParseTest" file="$PROJECT_DIR$/../mpts-php/test/Expression/ExpressionParseTest.php" method="testFunctionCall" scope="Method" />
+}]]></component>
+  <component name="RunManager" selected="npm.test">
+    <configuration name="build (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/../mpts-js/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
-    <configuration name="ExpressionParseTest.testFunctionCall2" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="ExpressionParseTest" file="$PROJECT_DIR$/../mpts-php/test/Expression/ExpressionParseTest.php" method="testFunctionCall2" scope="Method" />
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/../mpts-vue-demo/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -79,185 +65,61 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="Parser.cases from real life.1" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <mocha-package>$PROJECT_DIR$/../mpts-js/node_modules/mocha</mocha-package>
-      <working-directory>$PROJECT_DIR$/../mpts-js</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/../mpts-js/test/XMLParserTest.js</test-file>
-      <test-names>
-        <name value="Parser" />
-        <name value="cases from real life" />
-        <name value="1" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="Parser.element with attributes with variables" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <mocha-package>$PROJECT_DIR$/../mpts-js/node_modules/mocha</mocha-package>
-      <working-directory>$PROJECT_DIR$/../mpts-js</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/../mpts-js/test/XMLParserTest.js</test-file>
-      <test-names>
-        <name value="Parser" />
-        <name value="element with attributes with variables" />
-      </test-names>
+    <configuration name="testCoverage" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/../mpts-js/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="testCoverage" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Mocha.Unnamed" />
-      <item itemvalue="Mocha.Parser.cases from real life.1" />
-      <item itemvalue="Mocha.Parser.element with attributes with variables" />
+      <item itemvalue="npm.build" />
+      <item itemvalue="npm.build (1)" />
+      <item itemvalue="npm.testCoverage" />
       <item itemvalue="npm.test" />
-      <item itemvalue="PHPUnit.test" />
-      <item itemvalue="PHPUnit.ExpressionParseTest.testFunctionCall2" />
-      <item itemvalue="PHPUnit.ExpressionParseTest.testFunctionCall" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="PHPUnit.ExpressionParseTest.testFunctionCall2" />
-        <item itemvalue="PHPUnit.ExpressionParseTest.testFunctionCall" />
         <item itemvalue="npm.test" />
-        <item itemvalue="Mocha.Parser.element with attributes with variables" />
-        <item itemvalue="Mocha.Parser.cases from real life.1" />
+        <item itemvalue="npm.build (1)" />
+        <item itemvalue="npm.testCoverage" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="4152b22e-1d7a-4f10-a9f3-f3ccc8b3f0ad" name="Changes" comment="" />
-      <created>1650623700308</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1650623700308</updated>
-      <workItem from="1650623701407" duration="14000" />
-      <workItem from="1658310766672" duration="11532000" />
-      <workItem from="1658391992321" duration="187000" />
-      <workItem from="1678542741412" duration="2592000" />
-      <workItem from="1678708561650" duration="18000" />
-      <workItem from="1681822708761" duration="8853000" />
-      <workItem from="1681836463500" duration="1139000" />
-      <workItem from="1681898042844" duration="1403000" />
-      <workItem from="1681981139416" duration="2433000" />
-      <workItem from="1681986057504" duration="6133000" />
-      <workItem from="1683735416040" duration="2032000" />
-      <workItem from="1688641318338" duration="4172000" />
-      <workItem from="1688727726746" duration="580000" />
-      <workItem from="1688732673156" duration="1134000" />
-      <workItem from="1690989352009" duration="1409000" />
-      <workItem from="1692363456816" duration="761000" />
-      <workItem from="1692364887804" duration="462000" />
-    </task>
-    <task id="LOCAL-00001" summary="docs">
-      <created>1658330896135</created>
+    <task id="LOCAL-00001" summary="basic vue support">
+      <option name="closed" value="true" />
+      <created>1696436984894</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1658330896135</updated>
+      <updated>1696436984894</updated>
     </task>
-    <task id="LOCAL-00002" summary="bugfix">
+    <task id="LOCAL-00002" summary="basic vue support">
       <option name="closed" value="true" />
-      <created>1688645394627</created>
+      <created>1696438701229</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1688645394627</updated>
+      <updated>1696438701229</updated>
     </task>
-    <task id="LOCAL-00003" summary="event attribute">
+    <task id="LOCAL-00003" summary="basic vue support">
       <option name="closed" value="true" />
-      <created>1690989665985</created>
+      <created>1696439234864</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1690989665985</updated>
+      <updated>1696439234864</updated>
     </task>
-    <task id="LOCAL-00004" summary="bugfix">
-      <option name="closed" value="true" />
-      <created>1690990207897</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1690990207897</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="docs" />
-    <MESSAGE value="event attribute" />
-    <MESSAGE value="bugfix" />
-    <option name="LAST_COMMIT_MESSAGE" value="bugfix" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../mpts-js/test/Expression/ExpressionExecuteTest.js</url>
-          <line>105</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/examples/wikipediaRecentChanges/node_modules/mpts-core/test/XMLParserTest.js</url>
-          <line>62</line>
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../mpts-js/test/CompileTest.js</url>
-          <line>42</line>
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../mpts-js/test/ExecutionTest.js</url>
-          <line>63</line>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../mpts-js/test/CompileTest.js</url>
-          <line>108</line>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/../mpts-php/test/Expression/ExpressionParseTest.php</url>
-          <line>181</line>
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/../mpts-php/src/Parser/ExpressionParser.php</url>
-          <line>56</line>
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-      </breakpoints>
-      <default-breakpoints>
-        <breakpoint enabled="true" type="javascript-exception" />
-      </default-breakpoints>
-    </breakpoint-manager>
-    <watches-manager>
-      <configuration name="phpunit">
-        <watch expression="$obj-&gt;execute($env)" language="PHP" />
-      </configuration>
-    </watches-manager>
+    <MESSAGE value="basic vue support" />
+    <option name="LAST_COMMIT_MESSAGE" value="basic vue support" />
   </component>
 </project>
