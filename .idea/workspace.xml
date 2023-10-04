@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a0ff212-c676-4c52-9f46-580e143d47fc" name="Changes" comment="basic vue support">
-      <change afterPath="$PROJECT_DIR$/../mpts-js/src/parser/HTMLParser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mpts-js/test/HTMLParserTest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mpts-js/test/UniParserTest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mpts-js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../mpts-js/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mpts-js/test/XMLParserTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/../mpts-js/test/XMLParserTest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mpts-js/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../mpts-js/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mpts.iml" beforeDir="false" />
+    <list default="true" id="6a0ff212-c676-4c52-9f46-580e143d47fc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../mpts-js/src/parser/AbstractMLParser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mpts-js/dist/parser/XMLParser.js" beforeDir="false" afterPath="$PROJECT_DIR$/../mpts-js/dist/parser/XMLParser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mpts-js/src/parser/HTMLParser.js" beforeDir="false" afterPath="$PROJECT_DIR$/../mpts-js/src/parser/HTMLParser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mpts-js/src/parser/XMLParser.js" beforeDir="false" afterPath="$PROJECT_DIR$/../mpts-js/src/parser/XMLParser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mpts-js/test/HTMLParserTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/../mpts-js/test/HTMLParserTest.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +28,7 @@
   "keyToString": {
     "git-widget-placeholder": "master",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.mocha.mocha_node_package_dir": "C:/other/Documents/GitHub/LIB/mpts-js/node_modules/mocha",
     "ts.external.directory.path": "C:\\Users\\matri\\AppData\\Local\\Programs\\PhpStorm 2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external"
   }
 }]]></component>
@@ -75,7 +73,25 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="HTMLParser.ommiting tags.typeMix" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/../mpts-js/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/../mpts-js</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/../mpts-js/test/HTMLParserTest.js</test-file>
+      <test-names>
+        <name value="HTMLParser" />
+        <name value="ommiting tags" />
+        <name value="typeMix" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Mocha.HTMLParser.ommiting tags.typeMix" />
       <item itemvalue="npm.build" />
       <item itemvalue="npm.build (1)" />
       <item itemvalue="npm.testCoverage" />
@@ -85,6 +101,7 @@
       <list>
         <item itemvalue="npm.test" />
         <item itemvalue="npm.build (1)" />
+        <item itemvalue="Mocha.HTMLParser.ommiting tags.typeMix" />
         <item itemvalue="npm.testCoverage" />
         <item itemvalue="npm.build" />
       </list>
@@ -115,11 +132,38 @@
       <option name="project" value="LOCAL" />
       <updated>1696439234864</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="html parser scafolding">
+      <option name="closed" value="true" />
+      <created>1696451442696</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696451442696</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="basic vue support" />
-    <option name="LAST_COMMIT_MESSAGE" value="basic vue support" />
+    <MESSAGE value="html parser scafolding" />
+    <option name="LAST_COMMIT_MESSAGE" value="html parser scafolding" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../mpts-js/test/HTMLParserTest.js</url>
+          <line>60</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../mpts-js/src/parser/AbstractMLParser.js</url>
+          <line>45</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
