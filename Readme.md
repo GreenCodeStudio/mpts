@@ -13,6 +13,7 @@ It's like Twig, but better.
         + [PHP](#php)
         + [JS](#js)
         + [JS with webpack](#js-with-webpack)
+        + [JS with VUE](#js-with-vue)
     * [Language supported](#language-supported)
         + [PHP](#php-1)
         + [JS](#js-1)
@@ -86,16 +87,51 @@ import template from "./template.mpts"
 document.body.append(template({foo: 'bar'}))
 ```
 
+### JS with VUE
+
+webpack.config.js:
+```js
+module.exports = {
+    module: {
+        rules: [
+            {
+                test: /\.mpts$/,
+                loader: "mpts-vue-loader",
+            },
+        ],
+    },
+};
+```
+and in code
+
+```vue
+<template>
+    <div>
+        <subcomponent/>
+    </div>
+</template>
+<script>
+    import subcomponent from "./subcomponent.mpts"
+    export default {
+        components:{subcomponent},
+    }
+</script>
+document.body.append(template({foo: 'bar'}))
+```
+
 ## Language supported
 ### PHP
 [mkrawczyk/mpts](https://packagist.org/packages/mkrawczyk/mpts)
-
+[Readme.md](Readme.md)
 ### JS
 Main package
 [mpts-core](https://www.npmjs.com/package/mpts-core)
 
 Webpack loader:
 [mpts-loader](https://www.npmjs.com/package/mpts-loader)
+
+Webpack loader for Vue:
+[mpts-vue-loader](https://www.npmjs.com/package/mpts-vue-loader)
 
 ### .NET
 [MPTS](https://www.nuget.org/packages/MPTS)
