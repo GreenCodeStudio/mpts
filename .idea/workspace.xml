@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a0ff212-c676-4c52-9f46-580e143d47fc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../mpts-js/test/Expression/ExpressionExecuteTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/../mpts-js/test/Expression/ExpressionExecuteTest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mpts-js/test/Expression/ExpressionParseTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/../mpts-js/test/Expression/ExpressionParseTest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mpts-php/test/Expression/ExpressionExecuteTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../mpts-php/test/Expression/ExpressionExecuteTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mpts-php/test/Expression/ExpressionParseTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../mpts-php/test/Expression/ExpressionParseTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mpts-js/src/nodes/TExpressionSubnode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mpts-js/src/parser/AbstractMLParser.js" beforeDir="false" afterPath="$PROJECT_DIR$/../mpts-js/src/parser/AbstractMLParser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mpts-js/src/parser/ExpressionParser.js" beforeDir="false" afterPath="$PROJECT_DIR$/../mpts-js/src/parser/ExpressionParser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mpts-js/test/ExecutionTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/../mpts-js/test/ExecutionTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php-test-framework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php-test-framework.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/dist/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +34,10 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../mpts-php" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitLabMergeRequestsSettings"><![CDATA[{}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -50,6 +58,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/other/Documents/GitHub/LIB/mpts-js&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
@@ -59,10 +68,14 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="npm.test">
+  <component name="RunManager" selected="Composer Script.test">
     <configuration name="test" type="ComposerRunConfigurationType" factoryName="Composer Script" temporary="true">
       <option name="pathToComposerJson" value="$PROJECT_DIR$/../mpts-php/composer.json" />
       <option name="script" value="test" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ExpressionExecuteTest.testMethodCall" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="ExpressionExecuteTest" file="$PROJECT_DIR$/../mpts-php/test/Expression/ExpressionExecuteTest.php" method="testMethodCall" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="build (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -85,17 +98,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="testCoverage" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/../mpts-js/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="testCoverage" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="HTMLParser.ommiting tags.typeMix" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+    <configuration name="ExpressionTest.parse.methodCallMultiArgument" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <mocha-package>$PROJECT_DIR$/../mpts-js/node_modules/mocha</mocha-package>
@@ -104,31 +107,40 @@
       <ui>bdd</ui>
       <extra-mocha-options />
       <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/../mpts-js/test/HTMLParserTest.js</test-file>
+      <test-file>$PROJECT_DIR$/../mpts-js/test/Expression/ExpressionParseTest.js</test-file>
       <test-names>
-        <name value="HTMLParser" />
-        <name value="ommiting tags" />
-        <name value="typeMix" />
+        <name value="ExpressionTest" />
+        <name value="parse" />
+        <name value="methodCallMultiArgument" />
       </test-names>
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Composer Script.test" />
-      <item itemvalue="Mocha.Unnamed" />
-      <item itemvalue="Mocha.HTMLParser.ommiting tags.typeMix" />
+      <item itemvalue="PHPUnit.ExpressionExecuteTest.testMethodCall" />
       <item itemvalue="npm.build (1)" />
-      <item itemvalue="npm.testCoverage" />
       <item itemvalue="npm.test" />
+      <item itemvalue="Mocha.ExpressionTest.parse.methodCallMultiArgument" />
+      <item itemvalue="Mocha.Unnamed" />
+      <item itemvalue="PHPUnit.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.test" />
         <item itemvalue="Composer Script.test" />
+        <item itemvalue="PHPUnit.ExpressionExecuteTest.testMethodCall" />
+        <item itemvalue="npm.test" />
+        <item itemvalue="Mocha.ExpressionTest.parse.methodCallMultiArgument" />
         <item itemvalue="npm.build (1)" />
-        <item itemvalue="Mocha.HTMLParser.ommiting tags.typeMix" />
-        <item itemvalue="npm.testCoverage" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PS-241.14494.28" />
+        <option value="bundled-php-predefined-ba97393d7c68-34054344c61c-com.jetbrains.php.sharedIndexes-PS-241.14494.28" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -180,6 +192,12 @@
       <updated>1696511873059</updated>
       <workItem from="1696511875141" duration="1201000" />
       <workItem from="1700855315491" duration="1149000" />
+      <workItem from="1701075312790" duration="608000" />
+      <workItem from="1701119806256" duration="4143000" />
+      <workItem from="1702165849724" duration="616000" />
+      <workItem from="1702287856734" duration="1205000" />
+      <workItem from="1710785477116" duration="33000" />
+      <workItem from="1710871211784" duration="10000" />
     </task>
     <task id="LOCAL-00006" summary="allow runing object methods in php">
       <option name="closed" value="true" />
@@ -195,6 +213,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="basic vue support" />
     <MESSAGE value="html parser scafolding" />
@@ -206,14 +235,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../mpts-js/test/HTMLParserTest.js</url>
-          <line>60</line>
-          <option name="timeStamp" value="56" />
+          <url>file://$PROJECT_DIR$/../mpts-js/src/nodes/TExpressionSubnode.js</url>
+          <line>8</line>
+          <option name="timeStamp" value="64" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../mpts-js/src/parser/AbstractMLParser.js</url>
-          <line>45</line>
-          <option name="timeStamp" value="57" />
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/../mpts-php/test/Expression/ExpressionExecuteTest.php</url>
+          <line>116</line>
+          <option name="timeStamp" value="65" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
