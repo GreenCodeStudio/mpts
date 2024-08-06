@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a0ff212-c676-4c52-9f46-580e143d47fc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../mpts-js/src/nodes/TExpressionSubnode.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mpts-js/src/parser/AbstractMLParser.js" beforeDir="false" afterPath="$PROJECT_DIR$/../mpts-js/src/parser/AbstractMLParser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mpts-js/src/parser/ExpressionParser.js" beforeDir="false" afterPath="$PROJECT_DIR$/../mpts-js/src/parser/ExpressionParser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mpts-js/test/ExecutionTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/../mpts-js/test/ExecutionTest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php-test-framework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php-test-framework.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/dist/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/js.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +26,8 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitLabMergeRequestsSettings"><![CDATA[{}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{}]]></component>
+  <component name="GitLabMergeRequestsSettings">{}</component>
+  <component name="GithubPullRequestsUISettings">{}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -52,22 +42,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/other/Documents/GitHub/LIB/mpts-js&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs.mocha.mocha_node_package_dir&quot;: &quot;C:/other/Documents/GitHub/LIB/mpts-js/node_modules/mocha&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\matri\\AppData\\Local\\Programs\\PhpStorm 2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/other/Documents/GitHub/LIB/mpts-js",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.mocha.mocha_node_package_dir": "C:/other/Documents/GitHub/LIB/mpts-js/node_modules/mocha",
+    "nodejs_package_manager_path": "yarn",
+    "ts.external.directory.path": "C:\\Users\\matri\\AppData\\Local\\Programs\\PhpStorm 2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Composer Script.test">
     <configuration name="test" type="ComposerRunConfigurationType" factoryName="Composer Script" temporary="true">
       <option name="pathToComposerJson" value="$PROJECT_DIR$/../mpts-php/composer.json" />
@@ -137,8 +128,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PS-241.14494.28" />
-        <option value="bundled-php-predefined-ba97393d7c68-34054344c61c-com.jetbrains.php.sharedIndexes-PS-241.14494.28" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PS-241.17011.22" />
+        <option value="bundled-php-predefined-ba97393d7c68-48a1a656d44e-com.jetbrains.php.sharedIndexes-PS-241.17011.22" />
       </set>
     </attachedChunks>
   </component>
@@ -198,6 +189,10 @@
       <workItem from="1702287856734" duration="1205000" />
       <workItem from="1710785477116" duration="33000" />
       <workItem from="1710871211784" duration="10000" />
+      <workItem from="1712094977718" duration="612000" />
+      <workItem from="1712133100969" duration="597000" />
+      <workItem from="1713645263121" duration="33000" />
+      <workItem from="1716475333556" duration="37000" />
     </task>
     <task id="LOCAL-00006" summary="allow runing object methods in php">
       <option name="closed" value="true" />
